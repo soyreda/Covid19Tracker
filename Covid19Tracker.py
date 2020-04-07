@@ -12,7 +12,6 @@ soup = BeautifulSoup(source, 'html.parser')
 
 titles = []
 numbers = []
-countries = []
 
 #Looping through covid 19 cases over the world
 for number in soup.find_all('div', id='maincounter-wrap'):
